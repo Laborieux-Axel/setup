@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 set -e
 
+touch "$HOME/.hushlogin"
+
 DOTFILES_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 MARKER="# -------------- dotfiles install ---------------"
 
