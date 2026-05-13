@@ -1,0 +1,18 @@
+{
+  "providers": {
+    "vllm": {
+      "baseUrl": "http://localhost:8000/v1",
+      "api": "openai-completions",
+      "apiKey": "a",
+      "models": [
+        {
+          "id": "SERVED-MODEL-NAME",
+          "input": [
+            "text",
+            "image"
+          ]
+        }
+      ]
+    }
+  }
+}
